@@ -1,14 +1,51 @@
- body {background-color: powderblue;
-    margin-left: 30px; margin-right: 30px;
+body {
+    background-image: url(redes.PNG);
+    background-size: 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-    h1 {color: black;
-    font-family: Cambria;
-        }
-        h2 {font-family: cambria;}
-    p {color: rgb(57, 57, 49);
-    text-align: justify; text-indent: 50px;
-    font-family: cambria;
-    }
-    figure {
-        position: top;
-    }
+
+header#cabeçalho {
+    border-bottom: 1px solid #606060;
+    padding: 0px;
+    margin-top: 10px auto 0px auto;
+    background-color: #ffffff;
+}
+header#cabeçalho h2 {
+    color: #606060;
+    padding:10px;
+    margin-bottom: 0px;
+    margin-top: -14px;
+}
+
+nav#Menu ul {
+ display:block;
+ list-style: none;
+ text-transform: uppercase;
+ position: absolute;
+ top: 20px;
+ left: 800px;
+}
+
+nav#Menu li {
+    display: inline-block;
+    background-color: #606060;
+    padding: 10px;
+    margin: 3px;
+    transition: background 1s;
+
+}
+
+nav#Menu a {
+    color: #000000;
+
+}
+
+nav#Menu a:hover {
+    color: #ffffff;
+}
+
+nav#Menu li:hover{
+    background-color: #606060;
+}
